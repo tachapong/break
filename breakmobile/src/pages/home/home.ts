@@ -11,4 +11,12 @@ export class HomePage {
 
   }
 
+  customer(){
+    this.navCtrl.push("OrderCustomerPage");
+  }
+
+  brake(){
+    this.navCtrl.push("BrakeOrganizerPage");
+  }
+
 }
