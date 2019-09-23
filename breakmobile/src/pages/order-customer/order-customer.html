@@ -11,5 +11,19 @@
 </ion-header>
 
 <ion-content padding>
-
+  <ion-list>
+    <ion-item>
+      <ion-label>จังหวัด</ion-label>
+      <ion-select [(ngModel)]="cwt">
+        <ion-option value="1">อุบลราชธานี</ion-option>
+        <ion-option value="2">ขอนแก่น</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+        <ion-label fixed>สถานที่ส่ง</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+  </ion-list>
 </ion-content>
+
+ 
